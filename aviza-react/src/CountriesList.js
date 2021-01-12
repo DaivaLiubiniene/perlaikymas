@@ -15,12 +15,10 @@ export default class CountriesList extends Component {
   }
 
   refreshCountries() {
-    axios
-      .get("http://localhost:8080/aviza-spring/countries/all")
-      .then((response) => {
-        console.log(response);
-        this.setState({ countries: response.data });
-      });
+    axios.get("/aviza-spring/countries/all").then((response) => {
+      console.log(response);
+      this.setState({ countries: response.data });
+    });
   }
   render() {
     return (

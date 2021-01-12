@@ -15,12 +15,10 @@ export default class HolidaysList extends Component {
   }
 
   refreshHolidays() {
-    axios
-      .get("http://localhost:8080/aviza-spring/holidays/all")
-      .then((response) => {
-        console.log(response);
-        this.setState({ holidays: response.data });
-      });
+    axios.get("/aviza-spring/holidays/all").then((response) => {
+      console.log(response);
+      this.setState({ holidays: response.data });
+    });
   }
   render() {
     return (

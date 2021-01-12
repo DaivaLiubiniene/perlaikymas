@@ -15,12 +15,10 @@ export default class YearsList extends Component {
   }
 
   refreshYears() {
-    axios
-      .get("http://localhost:8080/aviza-spring/years/all")
-      .then((response) => {
-        console.log(response);
-        this.setState({ years: response.data });
-      });
+    axios.get("/aviza-spring/years/all").then((response) => {
+      console.log(response);
+      this.setState({ years: response.data });
+    });
   }
   render() {
     return (

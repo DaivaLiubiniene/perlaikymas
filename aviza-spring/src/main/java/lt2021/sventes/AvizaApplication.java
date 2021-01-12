@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import lt2021.sventes.model.Country;
 import lt2021.sventes.repository.CountryRepository;
 
 @SpringBootApplication
@@ -17,7 +18,7 @@ public class AvizaApplication {
 	@Bean
 	public CommandLineRunner demo(CountryRepository repository) {
 		return (args) -> {
-			// repository.save(new Country("Lietuva", "flag.svg", "Gitanas"));
+			repository.save(new Country("Lietuva", "flag.svg", "Gitanas"));
 		};
 	}
 
