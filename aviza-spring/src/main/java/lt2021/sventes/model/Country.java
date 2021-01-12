@@ -25,6 +25,17 @@ public class Country {
 	@OneToMany(mappedBy = "country")
 	private Set<NationalHoliday> nationalHolidays;
 
+	public Country() {
+		super();
+	}
+
+	public Country(String name, String flag, String president) {
+		super();
+		this.name = name;
+		this.flag = flag;
+		this.president = president;
+	}
+
 	public Integer getId() {
 		return id;
 	}

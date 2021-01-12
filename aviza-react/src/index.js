@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import "./index.css";
-document.title = "Sveikinimai";
+document.title = "Šventės";
 
 ReactDOM.render(
   <React.StrictMode>
