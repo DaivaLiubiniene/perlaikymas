@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/aviza-spring/static/css/main.37d3c59f.chunk.css",
+    "main.js": "/aviza-spring/static/js/main.a3e8e226.chunk.js",
+    "main.js.map": "/aviza-spring/static/js/main.a3e8e226.chunk.js.map",
+    "runtime-main.js": "/aviza-spring/static/js/runtime-main.63894bbf.js",
+    "runtime-main.js.map": "/aviza-spring/static/js/runtime-main.63894bbf.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/aviza-spring/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.516de5af.chunk.js": "/aviza-spring/static/js/2.516de5af.chunk.js",
+    "static/js/2.516de5af.chunk.js.map": "/aviza-spring/static/js/2.516de5af.chunk.js.map",
+    "index.html": "/aviza-spring/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/aviza-spring/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.37d3c59f.chunk.css.map": "/aviza-spring/static/css/main.37d3c59f.chunk.css.map",
+    "static/js/2.516de5af.chunk.js.LICENSE.txt": "/aviza-spring/static/js/2.516de5af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63894bbf.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.516de5af.chunk.js",
+    "static/css/main.37d3c59f.chunk.css",
+    "static/js/main.a3e8e226.chunk.js"
+  ]
+}

@@ -12,6 +12,10 @@ public class Year {
 
 	private String horoscope;
 
+	public Year() {
+		super();
+	}
+
 	public Integer getYear() {
 		return year;
 	}

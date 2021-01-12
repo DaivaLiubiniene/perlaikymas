@@ -8,16 +8,16 @@ import org.springframework.context.annotation.Bean;
 import lt2021.sventes.repository.CountryRepository;
 
 @SpringBootApplication
-public class AvizaReactApplication {
+public class AvizaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AvizaReactApplication.class, args);
+		SpringApplication.run(AvizaApplication.class, args);
 	}
 
 	@Bean
 	public CommandLineRunner demo(CountryRepository repository) {
 		return (args) -> {
-			// repository.save(new Country("Lietuva", "flag.svg", "Gitaras"));
+			// repository.save(new Country("Lietuva", "flag.svg", "Gitanas"));
 		};
 	}
 

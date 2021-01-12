@@ -32,6 +32,10 @@ public class Holiday {
 	@OneToMany(mappedBy = "holiday")
 	private Set<NationalHoliday> nationalHolidays;
 
+	public Holiday() {
+		super();
+	}
+
 	public Integer getId() {
 		return id;
 	}

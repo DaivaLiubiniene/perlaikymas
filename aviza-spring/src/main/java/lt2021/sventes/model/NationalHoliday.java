@@ -27,6 +27,10 @@ public class NationalHoliday {
 
 	private Integer day;
 
+	public NationalHoliday() {
+		super();
+	}
+
 	public Integer getId() {
 		return id;
 	}
